@@ -7,7 +7,7 @@
     <note id ='F22513'>
         <Fname>Daniel</Fname>
         <Lname>Riha</Lname>
-        <faculty>PRF</faculty>
+        <katedra>PRF</katedra>
         <studyYear>2</studyYear>
     </note>
 </student>
@@ -16,7 +16,7 @@
     <note id ='F22514'>
         <Fname>Alex</Fname>
         <Lname>SChonfy</Lname>
-        <faculty>PRF</faculty>
+        <katedra>PRF</katedra>
         <studyYear>1</studyYear>
     </note>
 </student>

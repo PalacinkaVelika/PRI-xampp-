@@ -1,0 +1,10 @@
+<!ELEMENT student (osobni_udaje, fakulta, rok, predmety)>
+<!ELEMENT osobni_udaje (jmeno, prijmeni, studentske_cislo)>
+<!ELEMENT jmeno (#PCDATA)>
+<!ELEMENT prijmeni (#PCDATA)>
+<!ELEMENT studentske_cislo (#PCDATA)>
+<!ELEMENT fakulta (#PCDATA)>
+<!ELEMENT rok (#PCDATA)>
+<!ELEMENT predmety (predmet+)>
+<!ELEMENT predmet (#PCDATA)>
+<!ATTLIST predmet kod CDATA #REQUIRED>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <osobni_udaje>
+        <jmeno>John</jmeno>
+        <prijmeni>Doe</prijmeni>
+        <studentske_cislo>123456</studentske_cislo>
+    </osobni_udaje>
+    <fakulta>Informatika</fakulta>
+    <rok>3</rok>
+    <predmety>
+        <predmet kod="CS101">Úvod do Informatiky</predmet>
+        <predmet kod="MATH202">Lineární Algebra</predmet>
+        <predmet kod="ENG101">Anglická Kompozice</predmet>
+    </predmety>
+</student>

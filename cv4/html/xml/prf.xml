@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fakulta SYSTEM "fakulta.dtd">
+<fakulta děkan="Jméno Děkana">
+    <katedra zkratka_katedry="PRF-KAT" webové_stránky="https://www.ujep.cz/prf-kat">
+        <zaměstnanci>
+            <zaměstnanec>
+                <jméno>Škvor Škvorus</jméno>
+                <telefon>779465123</telefon>
+                <email>jskvor@prf.ujep.cz</email>
+                <pozice ><vedoucí/></pozice>
+            </zaměstnanec>
+            <zaměstnanec>
+                <jméno>Kalashnikow markow</jméno>
+                <telefon>987654321</telefon>
+                <email>markow@prf.ujep.cz</email>
+                <pozice ><profesor/></pozice>
+            </zaměstnanec>
+        </zaměstnanci>
+        <předměty>
+            <předmět zkratka="PRF101" typ="přednáška">
+                <název>APR1</název>
+                <popis>programko</popis>
+            </předmět>
+            <předmět zkratka="PRF101" typ="přednáška">
+                <název>DAB2+</název>
+                <popis>dab me up</popis>
+            </předmět>
+        </předměty>
+    </katedra>
+</fakulta>

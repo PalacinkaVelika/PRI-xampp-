@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="fakulta" type="FakultaType"/>
+  <xs:complexType name="FakultaType">
+    <xs:sequence>
+      <xs:element name="katedra" type="KatedraType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="děkan" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="KatedraType">
+    <xs:sequence>
+      <xs:element name="vedoucí" type="VedouciType"/>
+      <xs:element name="zaměstnanci" type="ZamestnanciType"/>
+      <xs:element name="předměty" type="PredmetyType"/>
+    </xs:sequence>
+    <xs:attribute name="zkratka_katedry" type="xs:string" use="required"/>
+    <xs:attribute name="webové_stránky" type="xs:string" default="https://www.ujep.cz/cs/"/>
+  </xs:complexType>
+
+  <xs:complexType name="VedouciType">
+    <xs:sequence>
+      <xs:element name="jméno" type="xs:string"/>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="telefon" type="xs:string"/>
+        <xs:element name="email" type="xs:string

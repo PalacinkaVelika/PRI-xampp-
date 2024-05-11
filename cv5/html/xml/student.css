@@ -1,0 +1,25 @@
+studenti {
+    display: table;
+    background-color: palegoldenrod;
+    border: thin solid grey;
+}
+
+student {
+    display: table-row;
+}
+
+osobni_udaje {
+    display: table-cell;
+}
+
+jmeno, prijmeni, studentske_cislo, fakulta, rok {
+    display: table-cell;
+}
+
+predmety {
+    display: table-cell;
+}
+
+predmet {
+    display: table-cell;
+}

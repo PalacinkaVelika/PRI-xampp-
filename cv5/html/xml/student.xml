@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "student.dtd">
+<?xml-stylesheet type="text/css" href="student.css"?>
+<?xml-stylesheet type="text/xsl" href="studenti.xsl"?>
+<studenti>
+    <student>
+        <osobni_udaje>
+            <jmeno>Pepe</jmeno>
+            <prijmeni>Bůh</prijmeni>
+            <studentske_cislo>123456</studentske_cislo>
+        </osobni_udaje>
+        <fakulta>Informatika</fakulta>
+        <rok>3</rok>
+        <predmety>
+            <predmet kod="CS101">Úvod do Informatiky</predmet>
+            <predmet kod="MATH202">Lineární Algebra</predmet>
+            <predmet kod="ENG101">Anglická Kompozice</predmet>
+        </predmety>
+    </student>
+    <student>
+    <osobni_udaje>
+        <jmeno>Bao</jmeno>
+        <prijmeni>King Kong</prijmeni>
+        <studentske_cislo>123456</studentske_cislo>
+    </osobni_udaje>
+    <fakulta>Informatika</fakulta>
+    <rok>3</rok>
+    <predmety>
+        <predmet kod="CS101">Úvod do Informatiky</predmet>
+        <predmet kod="MATH202">Lineární Algebra</predmet>
+        <predmet kod="ENG101">Anglická Kompozice</predmet>
+    </predmety>
+</student>
+</studenti>
